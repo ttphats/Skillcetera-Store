@@ -1,0 +1,173 @@
+:root {
+    --while-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --gray-color: #E7E7E7;
+    --primary-color: #b9f6b2;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+#container {}
+
+
+/* Container Title */
+
+.container_title {
+    font-weight: 700;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container_title span {
+    position: relative;
+    color: #4F4F4F;
+    padding: 0 20px;
+}
+
+.container_title span::before {
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    background: #4F4F4F;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100%;
+}
+
+.container_title span::after {
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    background: #4F4F4F;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+}
+
+.order__btn {
+    background-color: #b9f6b2;
+    border: unset;
+    border-radius: 20px;
+    padding: 16px;
+    width: 12em;
+    height: 20px;
+    line-height: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+/* More Button */
+
+.more__link {
+    text-decoration: none;
+}
+
+.more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 40px;
+    margin: 44px auto;
+    width: 27em;
+    height: 6em;
+    background-color: #b9f6b2;
+}
+
+.more-btn:hover {
+    box-shadow: 1px 1px 10px 1px rgba(148, 150, 148, 0.938);
+}
+
+.more-btn span {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.more-icon {
+    position: relative;
+    right: -32px;
+    font-size: 35px;
+    color: white;
+}
+
+
+/* Sub Banner */
+
+.sub__banner {
+    max-width: 1200px;
+    max-height: 14em;
+    border-radius: 22px;
+    margin: 20px 85px;
+    overflow: hidden;
+}
+
+.sub__banner-img {
+    width: 100%;
+    transform: translateY(-9%);
+}
+
+.youtube__icon {
+    position: absolute;
+    transform: translateY(-450%);
+    left: 15em;
+    width: 5em;
+}
+
+
+/* Subscribe Button */
+
+.youtube__subscribe {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.youtube__subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28em;
+    height: 6em;
+    border-radius: 999px;
+    background-color: red;
+}
+
+.youtube__subscribe-btn:hover {
+    box-shadow: 1px 1px 4px 2px rgba(150, 147, 147, 0.747);
+}
+
+.youtube__subscribe-content {
+    font-size: 2.6rem;
+    color: white;
+    font-weight: 500;
+}
+
+.play__icon {
+    position: relative;
+    right: -1.2em;
+    color: white;
+    font-size: 4rem;
+}

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skillcetera</title>
+    <!-- Icon -->
+    <link rel="Icon" href="./assets/img/icon.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row" id="header">
+        <a href="#" class="header__logo col-md-2">
+            <img class="header__logo-img" src="/assets/img/Logo_Skillcetera_Green.png" alt="">
+            <span class="header__logo-text">Skillcetera</span>
+        </a>
+
+        <ul class="header__list header__list--hover col-md-5">
+            <li class="header__list-item">
+                <a href="#" class="home">Trang chủ</a>
+            </li>
+            <li class="header__list-item">
+                <a href="" class="header__dropdown">Khám phá</a>
+                <i class="fas fa-chevron-down"></i>
+            </li>
+            <li class="header__list-item">
+                <a href="" class="header__dropdown">Tìm hiểu thêm</a>
+                <i class="fas fa-chevron-down"></i>
+            </li>
+        </ul>
+
+
+        <div class="header__right-wrap col-md-5">
+            <div class="header__search header__right-item">
+                <input type="text" class="header__search-input" placeholder="Tìm sản phẩm">
+                <div class="header__search-btn">
+                    <i class="search__icon fas fa-search"></i>
+                </div>
+            </div>
+
+            <div class="header__cart header__list-item header__right-item">
+
+                <a href="/" class="header__cart-link">
+                    <i class="header__cart-icon fas fa-shopping-cart "></i>
+                </a>
+                <div class="header__cart-quantity">4</div>
+            </div>
+
+            <div class="header__account header__list-item header__right-item">
+                <a href="/" class="header__account-link">
+                    <i class="header__account-icon far fa-user-circle"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="slider">
+        <div class="slider__items">
+            <img class="slider__img" src="./assets/img/skill_discount1.png" alt="">
+            <img class="slider__items-control slider__items-control-left-img" src="./assets/img/left-arrow.png" alt="">;
+            <img class="slider__items-control slider__items-control-right-img" src="./assets/img/right-arrow.png" alt="">;
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="container_title">
+                    <span>SẢN PHẨM PRE-ORDER</span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="row preorder-stage">
+
+            <div class="preorder__items col-md-3 col-sm-6">
+                <div class="preorder__items-container">
+                    <div class="preorder__items-image">
+                        <a href="">
+                            <img class="preorder__items-image-img" src="./assets/img/lanyard_red.png" alt="Red Lanyard">
+                        </a>
+                    </div>
+                    <div class="preorder__items-content">
+                        <div class="preorder__items-description">
+                            Giảm thiểu tiếng ồn, những tạp âm khiến bạn bực bội, mất tập trung. Thân nhôm nguyên khối chắc chắn, đầu mút mềm và an toàn. 3 kích cỡ...
+                        </div>
+                        <div class="preorder__process preorder__process-out-of-stock">
+                            <div class="process__info-number">
+                                Số lượng đã đặt:
+                                <b class="process__quantity process__quantity-out-of-stock">201/200</b>
+                            </div>
+                            <div class="process-bar">
+                                <div class="percent-process percent-process-out-of-stock"></div>
+                            </div>
+                            <div class="process-state process-state-out-of-stock">Chiến dịch đã kết thúc</div>
+                        </div>
+                        <div class="order">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0GSxFMeTQXzhbWBx4HuRRlq6nB1KWKHzNsGqRvdZ3zis3KQ/viewform" class="order__link"><button class="order__btn">ĐẶT NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="preorder__items-title">
+                        <a href="">
+                            <h4 class="preorder__title-content">Túi đeo chéo TESOS Premium Waterproof - Thương hiệu Việt, tiêu chuẩn Thế giới</h4>
+                        </a>
+                    </div>
+                    <div class="preorder__label">
+                        <span>PRE ORDER</span>
+                        <!-- <i class="lable__tips fas fa-info-circle"></i> -->
+                        <div class="preorder__label-tips-content">
+                            <span>Chiến dịch đặt trước sản phẩm, ưu tiên mức giá 
+                                Tiên phong/Ưu đãi/Đặt trước cho các khách hàng đặt sớm nhất, chiến dịch số lượng có hạn
+                            </span>
+                            <img src="./assets/img/Skillcetera_logo_xmas.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="preorder__items col-md-3 col-sm-6">
+                <div class="preorder__items-container">
+                    <div class="preorder__items-image">
+                        <a href="">
+                            <img class="preorder__items-image-img" src="./assets/img/lanyard_red.png" alt="Red Lanyard">
+                        </a>
+                    </div>
+                    <div class="preorder__items-content">
+                        <div class="preorder__items-description">
+                            Giảm thiểu tiếng ồn, những tạp âm khiến bạn bực bội, mất tập trung. Thân nhôm nguyên khối chắc chắn, đầu mút mềm và an toàn. 3 kích cỡ...
+                        </div>
+                        <div class="preorder__process">
+                            <div class="process__info-number">
+                                Số lượng đã đặt:
+                                <b class="process__quantity">60/200</b>
+                            </div>
+                            <div class="process-bar">
+                                <div class="percent-process"></div>
+                            </div>
+                            <div class="process-state">
+                                Dự kiến giao hàng:
+                                <span class="process-state__date">20/12/2022</span>
+                            </div>
+                        </div>
+                        <div class="order">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0GSxFMeTQXzhbWBx4HuRRlq6nB1KWKHzNsGqRvdZ3zis3KQ/viewform" class="order__link"><button class="order__btn">ĐẶT NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="preorder__items-title">
+                        <a href="">
+                            <h4 class="preorder__title-content">Túi đeo chéo TESOS Premium Waterproof - Thương hiệu Việt, tiêu chuẩn Thế giới</h4>
+                        </a>
+                    </div>
+                    <div class="preorder__label">
+                        <span>PRE ORDER</span>
+                        <!-- <i class="lable__tips fas fa-info-circle"></i> -->
+                        <div class="preorder__label-tips-content">
+                            <span>Chiến dịch đặt trước sản phẩm, ưu tiên mức giá 
+                                Tiên phong/Ưu đãi/Đặt trước cho các khách hàng đặt sớm nhất, chiến dịch số lượng có hạn
+                            </span>
+                            <img src="./assets/img/Skillcetera_logo_xmas.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="preorder__items col-md-3 col-sm-6">
+                <div class="preorder__items-container">
+                    <div class="preorder__items-image">
+                        <a href="">
+                            <img class="preorder__items-image-img" src="./assets/img/lanyard_red.png" alt="Red Lanyard">
+                        </a>
+                    </div>
+                    <div class="preorder__items-content">
+                        <div class="preorder__items-description">
+                            Giảm thiểu tiếng ồn, những tạp âm khiến bạn bực bội, mất tập trung. Thân nhôm nguyên khối chắc chắn, đầu mút mềm và an toàn. 3 kích cỡ...
+                        </div>
+                        <div class="preorder__process">
+                            <div class="process__info-number">
+                                Số lượng đã đặt:
+                                <b class="process__quantity process__quantity-out-of-stock">201/200</b>
+                            </div>
+                            <div class="process-bar">
+                                <div class="percent-process percent-process-out-of-stock"></div>
+                            </div>
+                            <div class="process-state process-state-out-of-stock">Chiến dịch đã kết thúc</div>
+                        </div>
+                        <div class="order">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0GSxFMeTQXzhbWBx4HuRRlq6nB1KWKHzNsGqRvdZ3zis3KQ/viewform" class="order__link"><button class="order__btn">ĐẶT NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="preorder__items-title">
+                        <a href="">
+                            <h4 class="preorder__title-content">Túi đeo chéo TESOS Premium Waterproof - Thương hiệu Việt, tiêu chuẩn Thế giới</h4>
+                        </a>
+                    </div>
+                    <div class="preorder__label">
+                        <span>PRE ORDER</span>
+                        <!-- <i class="lable__tips fas fa-info-circle"></i> -->
+                        <div class="preorder__label-tips-content">
+                            <span>Chiến dịch đặt trước sản phẩm, ưu tiên mức giá 
+                                Tiên phong/Ưu đãi/Đặt trước cho các khách hàng đặt sớm nhất, chiến dịch số lượng có hạn
+                            </span>
+                            <img src="./assets/img/Skillcetera_logo_xmas.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="preorder__items col-md-3 col-sm-6">
+                <div class="preorder__items-container">
+                    <div class="preorder__items-image">
+                        <a href="">
+                            <img class="preorder__items-image-img" src="./assets/img/lanyard_red.png" alt="Red Lanyard">
+                        </a>
+                    </div>
+                    <div class="preorder__items-content">
+                        <div class="preorder__items-description">
+                            Giảm thiểu tiếng ồn, những tạp âm khiến bạn bực bội, mất tập trung. Thân nhôm nguyên khối chắc chắn, đầu mút mềm và an toàn. 3 kích cỡ...
+                        </div>
+                        <div class="preorder__process">
+                            <div class="process__info-number">
+                                Số lượng đã đặt:
+                                <b class="process__quantity process__quantity-out-of-stock">201/200</b>
+                            </div>
+                            <div class="process-bar">
+                                <div class="percent-process percent-process-out-of-stock"></div>
+                            </div>
+                            <div class="process-state process-state-out-of-stock">Chiến dịch đã kết thúc</div>
+                        </div>
+                        <div class="order">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0GSxFMeTQXzhbWBx4HuRRlq6nB1KWKHzNsGqRvdZ3zis3KQ/viewform" class="order__link"><button class="order__btn">ĐẶT NGAY</button></a>
+                        </div>
+                    </div>
+                    <div class="preorder__items-title">
+                        <a href="">
+                            <h4 class="preorder__title-content">Túi đeo chéo TESOS Premium Waterproof - Thương hiệu Việt, tiêu chuẩn Thế giới</h4>
+                        </a>
+                    </div>
+                    <div class="preorder__label">
+                        <span>PRE ORDER</span>
+                        <!-- <i class="lable__tips fas fa-info-circle"></i> -->
+                        <div class="preorder__label-tips-content">
+                            <span>Chiến dịch đặt trước sản phẩm, ưu tiên mức giá 
+                                Tiên phong/Ưu đãi/Đặt trước cho các khách hàng đặt sớm nhất, chiến dịch số lượng có hạn
+                            </span>
+                            <img src="./assets/img/Skillcetera_logo_xmas.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more__button">
+                <a href="https://sites.google.com/view/skillceterastore?fbclid=IwAR0CtoUs8Y338Do7wvQibzUls2A7QG2xdZJgzs4RNBmo8G_-zIglAP5UZjE" class="more__link">
+                    <button class="more-btn">
+                        <span>
+                        KHÁM PHÁ THÊM
+                        </span>
+                        <i class="more-icon fas fa-arrow-alt-circle-right"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- NEW ARRIVALS -->
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="container_title">
+                    <span>SẢN PHẨM MỚI</span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="row new-arrival-stage">
+
+            <div class="new-arrival__items col-md-3">
+                <div class="new-arrival__items-container">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3zupIHfEkpcFhdjvm984d0efwpn-xxFYwirpfs36wW3MVw/viewform">
+                        <div class="new-arrival__items-image">
+                            <img class="new-arrival__items-image-img" src="./assets/img/skillcetera_new_arrivals.png" alt="Red Lanyard">
+                        </div>
+                    </a>
+                    <div class="new-arrival__items-content">
+                        <div class="new-arrival__items-description">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3zupIHfEkpcFhdjvm984d0efwpn-xxFYwirpfs36wW3MVw/viewform">
+                                <h3 class="new-arrival__items-description-heading">BÚT NAM CHÂM FIDGET PEN - DESIGNNEST</h3>
+                            </a>
+                            Giảm thiểu tiếng ồn, những tạp âm khiến bạn bực bội, mất tập trung. Thân nhôm nguyên khối chắc chắn, đầu mút mềm và an toàn. 3 kích cỡ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-arrival__items col-md-3">
+                <div class="new-arrival__items-container">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3zupIHfEkpcFhdjvm984d0efwpn-xxFYwirpfs36wW3MVw/viewform">
+                        <div class="new-arrival__items-image">
+                            <img class="new-arrival__items-image-img" src="./assets/img/skillcetera_new_arrivals.png" alt="Red Lanyard">
+                        </div>
+                    </a>
+                    <div class="new-arrival__items-content">
+                        <div class="new-arrival__items-description">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3zupIHfEkpcFhdjvm984d0efwpn-xxFYwirpfs36wW3MVw/viewform">
+                                <h3 class="new-arrival__items-description-heading">BÚT NAM CHÂM FIDGET PEN - DESIGNNEST</h3>
+                            </a>
+                            Giảm thiểu tiếng ồn, những tạp âm khiến bạn bực bội, mất tập trung. Thân nhôm nguyên khối chắc chắn, đầu mút mềm và an toàn. 3 kích cỡ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-arrival__items col-md-3">
+                <div class="new-arrival__items-container">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3zupIHfEkpcFhdjvm984d0efwpn-xxFYwirpfs36wW3MVw/viewform">
+                        <div class="new-arrival__items-image">
+                            <img class="new-arrival__items-image-img" src="./assets/img/skillcetera_new_arrivals.png" alt="Red Lanyard">
+                        </div>
+                    </a>
+                    <div class="new-arrival__items-content">
+                        <div class="new-arrival__items-description">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3zupIHfEkpcFhdjvm984d0efwpn-xxFYwirpfs36wW3MVw/viewform">
+                                <h3 class="new-arrival__items-description-heading">BÚT NAM CHÂM FIDGET PEN - DESIGNNEST</h3>
+                            </a>
+                            Giảm thiểu tiếng ồn, những tạp âm khiến bạn bực bội, mất tập trung. Thân nhôm nguyên khối chắc chắn, đầu mút mềm và an toàn. 3 kích cỡ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-arrival__items col-md-3">
+                <div class="new-arrival__items-container">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3zupIHfEkpcFhdjvm984d0efwpn-xxFYwirpfs36wW3MVw/viewform">
+                        <div class="new-arrival__items-image">
+                            <img class="new-arrival__items-image-img" src="./assets/img/skillcetera_new_arrivals.png" alt="Red Lanyard">
+                        </div>
+                    </a>
+                    <div class="new-arrival__items-content">
+                        <div class="new-arrival__items-description">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf3zupIHfEkpcFhdjvm984d0efwpn-xxFYwirpfs36wW3MVw/viewform">
+                                <h3 class="new-arrival__items-description-heading">BÚT NAM CHÂM FIDGET PEN - DESIGNNEST</h3>
+                            </a>
+                            Giảm thiểu tiếng ồn, những tạp âm khiến bạn bực bội, mất tập trung. Thân nhôm nguyên khối chắc chắn, đầu mút mềm và an toàn. 3 kích cỡ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more__button">
+                <a href="https://sites.google.com/view/skillceterastore?fbclid=IwAR0CtoUs8Y338Do7wvQibzUls2A7QG2xdZJgzs4RNBmo8G_-zIglAP5UZjE" class="more__link">
+                    <button class="more-btn">
+                        <span>
+                        KHÁM PHÁ THÊM
+                        </span>
+                        <i class="more-icon fas fa-arrow-alt-circle-right"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Sub Banner -->
+
+        <div class="sub__banner">
+            <a href="https://www.facebook.com/skillcetera">
+                <img class="sub__banner-img" src="./assets/img/skillcetera__subbanner_xmas.jpg" alt="Skillcetera">
+            </a>
+        </div>
+
+        <!-- Youtube -->
+        <section class="youtube">
+            <div class="youtube__container">
+                <h1 class="youtube__container-title">
+                    <span>KÊNH YOUTUBE MÔ TẢ CHI TIẾT THỰC TẾ SẢN PHẨM CỦA <br> <strong>SKILLCETERA.COM</strong></span>
+                </h1>
+                <div class="youtube__container-wrapper row">
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="youtube__container-wrapper row">
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="youtube__container-wrapper row">
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="youtube__container-items">
+                            <div class="youtube__container-items-images">
+                                <img class="youtube__container-items-images-img" src="./assets/img/tedx_new_arrivals.png" alt="Tedx Merchandise">
+                            </div>
+                            <div class="youtube__container-items-content">
+                                <span>So sánh 3 phiên bản dây Lanyard Skillcetera Passed cực chất</span>
+                            </div>
+                            <svg class="youtube__icon" viewBox="0 -77 512.00213 512"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"></path><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.youtube.com/channel/UCGsTO4PQdnL_zsawmp9kwUQ" class="youtube__subscribe-link">
+                <div class="youtube__subscribe">
+                    <div class="youtube__subscribe-btn">
+                        <span class="youtube__subscribe-content">SUBSCRIBE</span>
+                        <div class="youtube__subscribe-play"><i class="play__icon fas fa-play-circle"></i></div>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+    </div>
+
+    <div id="footer">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+
+</html>
