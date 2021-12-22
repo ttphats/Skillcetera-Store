@@ -85,6 +85,10 @@ a:hover {
     text-decoration: none;
 }
 
+.more__button {
+    width: 100%;
+}
+
 .more-btn {
     display: flex;
     align-items: center;
@@ -119,10 +123,10 @@ a:hover {
 .sub__banner {
     display: flex;
     justify-content: center;
-    width: 172em;
+    width: 100%;
     max-height: 17em;
     border-radius: 22px;
-    margin: 20px 85px;
+    margin: 20px auto;
 }
 
 .sub__banner-img {
@@ -133,9 +137,9 @@ a:hover {
 
 .youtube__icon {
     position: absolute;
-    transform: translateY(-450%);
-    left: 15em;
-    width: 5em;
+    top: 28%;
+    left: 40%;
+    width: 20%;
 }
 
 
