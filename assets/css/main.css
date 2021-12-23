@@ -20,7 +20,7 @@
 }
 
 .header__logo-img {
-    max-width: 37px;
+    width: 30%;
     height: 50%;
     margin: 0 6px;
 }
