@@ -1,7 +1,7 @@
 #header {
     position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 999;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -99,6 +99,63 @@ i {
     color: #8d8888;
 }
 
+.header__list-item-search:hover .header__search-dropdown-list {
+    display: block;
+}
+
+.header__search-dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    z-index: 1000;
+    width: 27%;
+    height: 27em;
+    border-radius: 20px;
+    padding: 15px 0;
+    background-color: white;
+    box-shadow: 1px 1px 4px 1px #585757;
+    display: none;
+    animation: fadeIn ease-in-out 0.2s;
+}
+
+.header__search-dropdown-list::before {
+    position: absolute;
+    top: -26px;
+    content: "";
+    display: block;
+    width: 38%;
+    height: 30px;
+}
+
+.header__search-dropdow-list-items {
+    display: flex;
+    list-style: none;
+    background-color: #eee;
+    color: rgb(61, 58, 58);
+    font-size: 1.4rem;
+    margin: 8px auto;
+    text-align: left;
+    width: 90%;
+    height: 2.7em;
+    border-radius: 20px;
+}
+
+.header__search-dropdow-list-items:hover {
+    background-color: var(--primary-color);
+}
+
+.header__search-dropdow-link:first-child {
+    padding-top: 25px;
+}
+
+.header__search-dropdow-link:last-child {
+    margin-bottom: 25px;
+}
+
+.header__search-dropdow-list-items span {
+    margin: auto 12px;
+}
+
 .header__right-wrap {
     display: flex;
     flex-wrap: nowrap;
@@ -126,6 +183,10 @@ i {
     text-align: center;
     font-size: 1.7rem;
     line-height: 100%;
+}
+
+.header__account {
+    cursor: pointer;
 }
 
 .header__account-icon {
@@ -185,7 +246,7 @@ i {
 .preorder__items-container {
     position: relative;
     width: 95%;
-    height: 100%;
+    height: 84em;
     border-radius: 22px;
     box-shadow: 1px 1px 10px 1px rgba(148, 150, 148, 0.938);
     /* overflow: hidden; */
@@ -198,7 +259,7 @@ i {
 
 .preorder__items-image {
     position: relative;
-    height: 38em;
+    height: 58em;
     overflow: hidden;
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
@@ -208,7 +269,7 @@ i {
     position: absolute;
     top: -21px;
     width: 100%;
-    height: auto;
+    height: 100%;
     transition: linear 0.2s;
 }
 
@@ -356,7 +417,7 @@ i {
 .preorder__items-title {
     position: absolute;
     z-index: 1;
-    top: 347px;
+    top: 54em;
     left: 0;
     right: 0;
     background-color: #b9f6b2;
@@ -399,10 +460,11 @@ i {
     display: flex;
     justify-content: center;
     margin: 24px 0;
+    height: 58em;
 }
 
 .new-arrival__items-container {
-    width: 80%;
+    width: 100%;
     height: 100%;
     border-radius: 22px;
     box-shadow: 1px 1px 10px 1px rgba(148, 150, 148, 0.938);
@@ -420,7 +482,7 @@ i {
 
 .new-arrival__items-image {
     position: relative;
-    height: 29em;
+    height: 44em;
     overflow: hidden;
     background-color: black;
     cursor: pointer;
@@ -493,8 +555,8 @@ h3 {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 36em;
-    max-height: 42em;
+    width: 100%;
+    height: 100%;
     border-radius: 22px;
     padding: 0;
     box-shadow: 0px 2px 4px 1px #00000052;
@@ -509,7 +571,7 @@ h3 {
 .youtube__container-items-images {
     overflow: hidden;
     width: 100%;
-    max-height: 24em;
+    max-height: 32em;
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
 }
@@ -968,7 +1030,7 @@ h3 {
 
 .copyright-text p {
     font-size: 22px;
-    line-height: 0.9;
+    line-height: 1.2;
     margin-bottom: 0;
 }
 

@@ -177,3 +177,141 @@ a:hover {
     color: white;
     font-size: 4rem;
 }
+
+
+/* Modal */
+
+.modal__container {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1001;
+    display: none;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal__body {
+    z-index: 1000;
+    width: 69em;
+    height: 40em;
+    border-radius: 40px;
+    background-color: white;
+    margin: auto;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 22px 0 40px 0;
+}
+
+.form-input {
+    text-align: center;
+    width: 43em;
+    height: 3em;
+    justify-content: center;
+    margin: 12px auto;
+    border-radius: 50px;
+    background-color: #f4f4f4;
+    box-shadow: 1px 1px 2px 1px rgb(226, 223, 223);
+}
+
+.form-input:focus-within {
+    cursor: pointer;
+    outline: 2px solid var(--black-color);
+}
+
+.form-input input {
+    width: 93%;
+    height: 98%;
+    border: none;
+    margin-left: 12px;
+    font-size: 1.6rem;
+    outline: none;
+    background-color: #f4f4f4;
+}
+
+.form-input input:hover {
+    cursor: pointer;
+}
+
+.auth_account_custommer {
+    display: flex;
+    justify-content: center;
+}
+
+.auth-account-button {
+    width: 30.5%;
+    height: 3.5em;
+    margin: 3px;
+}
+
+.auth-account-btn {
+    width: 100%;
+    height: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 58px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px rgb(201, 196, 196);
+    background-color: var(--while-color);
+}
+
+.signin-btn {
+    background-color: var(--primary-color);
+}
+
+#forgot-pass {
+    display: block;
+    font-size: 1.5rem;
+    color: rgb(97, 97, 224);
+    margin-top: 20px;
+    text-align: center;
+}
+
+#forgot-pass:hover {
+    color: rgb(235, 139, 75);
+    font-weight: 700;
+}
+
+.social-login-title {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 6px;
+}
+
+.social-btn-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook__icon {
+    width: 4em;
+}
+
+.google__icon {
+    width: 6em;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
